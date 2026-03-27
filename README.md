@@ -1,6 +1,6 @@
 # Meditation Tracker - Garmin Forerunner 255 Music
 
-Monkey C **watch app** that tracks meditation time and heart rate, then syncs sessions to your backend (same API key as [GarminReadingApp](https://github.com/Lutu-gl/Garmin-Reading-App)).
+Monkey C **watch app** that tracks meditation time and heart rate, then syncs sessions to your backend (same logic as [GarminReadingApp](https://github.com/Lutu-gl/Garmin-Reading-App)).
 
 ## Features
 
