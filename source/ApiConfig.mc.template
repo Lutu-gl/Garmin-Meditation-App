@@ -1,0 +1,11 @@
+import Toybox.Lang;
+
+//! API configuration for the backend (same key as GarminReadingApp).
+//! Copy this file to ApiConfig.mc and set your values, or generate ApiConfig.mc
+//! from .env using: ./scripts/generate_config.sh
+//!
+//! Do not commit ApiConfig.mc or .env (they are in .gitignore).
+class ApiConfig {
+    static const API_KEY as String = "REPLACE_WITH_YOUR_SUPABASE_ANON_OR_SERVICE_KEY";
+    static const API_URL as String = "https://YOUR_PROJECT_REF.supabase.co/functions/v1/meditation-sessions";
+}

@@ -1,0 +1,21 @@
+# Environment and generated config (contain secrets – do not commit)
+.env
+.env.local
+.env.*.local
+source/ApiConfig.mc
+
+# Garmin developer key
+developer_key
+developer_key.der
+*.der
+
+# Build output
+bin/
+*.prg
+*.iq
+
+# IDE / OS
+.idea/
+.DS_Store
+*.swp
+*.swo
